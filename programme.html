@@ -8,220 +8,264 @@
 <meta property="og:title" content="The programme — ten stages from beginner to a deployed AI application">
 <meta property="og:description" content="Every stage of the AI Engineer Career Programme: what you learn, why it is there, and what you build. Theory, a no-code workflow, Python, LLM APIs, RAG, agents, evaluation, deployment, capstone and getting hired.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="/img/hero.jpg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..800;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<header class="nav"><div class="wrap">
-  <a class="brand" href="/">
-    <span class="mark">AI</span>
-    <span>AI Engineer Career Programme<small>by Professional Careers Training</small></span>
-  </a>
+<header class="site-header"><div class="container">
+  <a class="logo" href="/" aria-label="AI Engineer Career Programme home"><span class="mark" aria-hidden="true">AI</span><span class="name">AI Engineer<br>Career Programme</span></a>
   <button class="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button>
-  <nav class="links" id="nav-links">
-    <a href="/" >Home</a>
-    <a href="/programme" aria-current="page">The programme</a>
-    <a href="/career" >The career</a>
-    <a href="/faq" >FAQ</a>
-    <a class="cta" href="/#waitlist">Join the waitlist</a>
+  <nav id="nav-links">
+    <a href="/">Home</a>
+    <a href="/programme" aria-current="page">Programme</a>
+    <a href="/career">The career</a>
+    <a href="/faq">FAQ</a>
+    <a class="btn btn-accent" href="/waitlist">Join the waitlist</a>
   </nav>
 </div></header>
 
-<div class="cover short"><div class="wrap">
-  <div class="kicker">The programme</div>
-  <h1>Ten stages. One application. A portfolio you can defend.</h1>
-  <p class="sub">Each stage below says what you learn, why it is in the programme, and what you build. The order is deliberate: nothing appears before you have the context to understand why it matters.</p>
+<div class="hero" id="top">
+  <div class="orb" aria-hidden="true" style="background-image:url('/img/summit.jpg')"></div>
+  <div class="container">
+    <div>
+      <span class="badge on-dark"><i><span></span><span></span><span></span></i>The Programme</span>
+      <h1>Ten Stages. One Application. A Portfolio You Can&nbsp;Defend.</h1>
+      <p class="sub">Each stage below says what you learn, why it is in the programme, and what you build. The order is deliberate: nothing appears before you have the context to understand why it matters.</p>
+      <ul class="ticks">
+        <li>Theory first, told as a story — no tool appears before you know why it exists</li>
+        <li>The whole job built with no code, before a line of Python</li>
+        <li>One application extended stage by stage, not ten throwaway exercises</li>
+        <li>A capstone that ends live at a public URL, with an evaluation report</li>
+      </ul>
+    </div>
+
+    <div class="side-card route">
+      <h3>Your route through it</h3>
+      <p>Three phases, eleven stages numbered 0 to 10. Jump straight to any of them.</p>
+      <ol class="route-list">
+        <li><a href="#phase-1"><b>1</b><span><small>Phase 1 &middot; Stages 0–2</small>Foundations: understand the whole job</span></a></li>
+        <li><a href="#phase-2"><b>2</b><span><small>Phase 2 &middot; Stages 3–8</small>Building: one application, extended stage by stage</span></a></li>
+        <li><a href="#phase-3"><b>3</b><span><small>Phase 3 &middot; Stages 9–10</small>Launch: the credential and the first role</span></a></li>
+      </ol>
+      <a class="btn btn-accent btn-block" href="/waitlist">Join the waitlist</a>
+      <p class="fine">Enrolment opens soon. Waitlist members hear first.</p>
+    </div>
+  </div>
+</div>
+
+<div class="facts-wrap"><div class="container">
+  <div class="facts">
+    <div><div class="k">Stages</div><div class="v">11, from 0 to 10</div><div class="viz" aria-hidden="true"><span style="height:4px;background:var(--i200)"></span><span style="height:6px;background:var(--i200)"></span><span style="height:8px;background:var(--i300)"></span><span style="height:9px;background:var(--i300)"></span><span style="height:11px;background:var(--i400)"></span><span style="height:12px;background:var(--i400)"></span><span style="height:14px;background:var(--i500)"></span><span style="height:15px;background:var(--i500)"></span><span style="height:17px;background:var(--i600)"></span><span style="height:18px;background:var(--i600)"></span><span style="height:20px"></span></div></div>
+    <div><div class="k">Builds</div><div class="v">One app, extended</div><div class="viz slider" aria-hidden="true"><div></div></div></div>
+    <div><div class="k">Each stage</div><div class="v">Learn, check, build</div><div class="viz" aria-hidden="true"><span style="height:10px;background:var(--i300)"></span><span style="height:14px;background:var(--i500)"></span><span style="height:20px"></span></div></div>
+    <div><div class="k">Finish line</div><div class="v">Live at a public URL</div><div class="viz steps" aria-hidden="true" style="border-bottom:1.5px solid var(--line)"><span style="height:3px;background:var(--i200)"></span><span style="height:7px"></span><span style="height:11px"></span><span style="height:15px"></span><span style="height:20px;background:var(--accent-2)"></span></div></div>
+  </div>
 </div></div>
 
-<section><div class="wrap">
-  <div class="note" style="margin-bottom:40px">
-    <div class="nt">How each stage is taught</div>
-    <p>Recorded video lectures for every topic, notes and documents to read alongside them, and a quiz after each chapter to check it landed. Then a guided build with a defined finish line. The build is not optional: it is the evidence you take to an employer.</p>
+<section class="fade"><div class="container">
+  <span class="badge"><i><span></span><span></span><span></span></i>How Each Stage Is Taught</span>
+  <h2>Every Stage Follows the Same Rhythm</h2>
+  <p class="lede">You always know what's coming next. Learn the idea, check it has landed, then prove it with a build that has a defined finish line.</p>
+  <div class="steps4" data-reveal>
+    <div><span class="num" aria-hidden="true">1</span><hr><span class="when">Watch</span><h4>Recorded video lectures</h4><p>A lecture for every topic, on the portal 24/7, so you can study whenever life allows.</p></div>
+    <div><span class="num" aria-hidden="true">2</span><hr><span class="when">Read</span><h4>Notes and documents</h4><p>Written material to read alongside each lecture, and to come back to when you're building.</p></div>
+    <div><span class="num" aria-hidden="true">3</span><hr><span class="when">Check</span><h4>A quiz after every chapter</h4><p>A quick check that it has landed before you move on, so gaps don't pile up.</p></div>
+    <div><span class="num" aria-hidden="true">4</span><hr><span class="when">Build</span><h4>A guided build</h4><p>The build is not optional: it is the evidence you take to an employer.</p></div>
   </div>
+</div></section>
 
+<section class="tint" id="stages"><div class="container">
+  <span class="badge"><i><span></span><span></span><span></span></i>Stage by Stage</span>
+  <h2>What You Learn, and What You Build</h2>
+  <p class="lede">Stages 3 to 8 extend the same application rather than starting over, so you finish with one real system you can explain end to end in an interview.</p>
+
+  <div class="phase-band" id="phase-1"><span class="ghost" aria-hidden="true">01</span><span class="phase">Phase 1</span><span class="rule"></span><span class="title">Foundations: understand the whole job<small>Stages 0–2</small></span></div>
   <div class="journey">
-
-    <div class="module">
-      <div class="head"><div class="num">0</div>
-        <h3><span class="tag">Foundations &middot; no code</span>What AI actually is, and what an AI engineer actually does</h3>
-        <span class="chip">Theory, told as a story</span></div>
-      <p>Everything a complete beginner needs before any tool appears. Told in six lectures as the story of how we got here, not as a textbook.</p>
-      <ul>
-        <li>AI, machine learning, deep learning and large language models, and how they relate</li>
-        <li>Training a model versus using one, and why this programme is about the second</li>
-        <li>Tokens, context windows, embeddings, temperature, and why models make things up</li>
-        <li>The model landscape (Claude, GPT, Gemini, open-weight) and how engineers choose</li>
-        <li>Where AI sits inside ordinary software: the user, the app, the database, the model</li>
-        <li>The job itself: what UK adverts say the role is, and what it is not</li>
-      </ul>
-      <div class="build"><div class="nt">You build</div><p>A written explainer, in your own words, of how an LLM answers a question. You will use it again in interview preparation.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">1</div>
-        <h3><span class="tag">The no-code full workflow</span>Copilot Studio: the whole job before any code</h3>
-        <span class="chip flag">The stage that makes everything else make sense</span></div>
-      <p>In our data programme, Excel let students do the whole analysis workflow before code made it harder. Copilot Studio does the same here. You build a complete assistant and, as you do, you are told plainly which later stage each button corresponds to.</p>
-      <ul>
-        <li>Build an assistant, write its instructions, give it a persona and constraints</li>
-        <li>Add knowledge sources: documents, SharePoint, a website. This is retrieval, and you are told so</li>
-        <li>Add actions that call a workflow or an API. This is tool use, and you are told so</li>
-        <li>Test it, break it, watch it hallucinate, fix it. This is evaluation, and you are told so</li>
-        <li>Publish it to Teams. This is deployment</li>
-      </ul>
-      <p>This stack appears in a fifth of UK adverts and dominates junior and regional roles. Some students get their first job on it alone.</p>
-      <div class="build"><div class="nt">You build</div><p>An internal HR or IT policy assistant, published to Teams, answering from real documents and logging a ticket through an action.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">2</div>
-        <h3><span class="tag">Code foundations</span>Python for AI engineering</h3>
-        <span class="chip">Application Python, not analysis Python</span></div>
-      <p>The Python of someone who writes services: functions, classes, data structures, JSON, error handling, reading a traceback, calling an HTTP API, virtual environments, project structure, Git, and a first test. Written by you, without an AI assistant finishing your lines; assistants are introduced deliberately in Stage 3.</p>
-      <ul>
-        <li>Git and GitHub from day one; every later build lives in a repository</li>
-        <li>Enough to read TypeScript, since a third of adverts want it as a second language</li>
-      </ul>
-      <div class="build"><div class="nt">You build</div><p>A command-line tool that pulls from a public API, handles errors, has tests, and is on GitHub with a README.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">3</div>
-        <h3><span class="tag">First contact with the model</span>Working with LLM APIs</h3>
-        <span class="chip">The Stage 1 assistant, rebuilt in code</span></div>
-      <p>Call a model from Python. System prompts, messages, structured outputs, streaming, cost and latency, and switching between two providers behind one interface. Then wrap it in a FastAPI service so it is an application, not a notebook.</p>
-      <ul>
-        <li>Provider SDKs directly, no framework yet</li>
-        <li>AI-assisted development introduced here as a working practice, with one rule: you must be able to explain every line</li>
-      </ul>
-      <div class="build"><div class="nt">You build</div><p>A chat service with conversation memory, exposed as an API, that can run against either of two model providers.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">4</div>
-        <h3><span class="tag">The craft</span>Context engineering</h3>
-        <span class="chip">Prompt engineering, folded into something bigger</span></div>
-      <p>Prompting matters, but no employer hires for prompting alone. This stage teaches it as one part of deciding what the model sees: prompts, examples, output schemas, tool descriptions, conversation history, what gets cut when the context is full, token budgeting, and defending against prompt injection.</p>
-      <div class="build"><div class="nt">You build</div><p>Your Stage 3 service upgraded to produce validated structured outputs and to resist a set of injection attacks you write yourself.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">5</div>
-        <h3><span class="tag">Build pattern one</span>Retrieval-augmented generation (RAG)</h3>
-        <span class="chip flag">One of the two patterns every portfolio needs</span></div>
-      <p>The knowledge-sources button from Stage 1, opened up. Chunking strategies, embeddings, a vector store, keyword versus semantic versus hybrid search, reranking, citing sources, and measuring whether retrieval actually found the right thing. RAG appears in roughly half of UK AI engineer adverts.</p>
-      <div class="build"><div class="nt">You build</div><p>Document Q&amp;A over a private document set, such as a policy library or a product manual, with cited answers and a retrieval-quality score.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">6</div>
-        <h3><span class="tag">Build pattern two</span>Agents and tool use</h3>
-        <span class="chip flag">The other pattern every portfolio needs</span></div>
-      <p>The actions button from Stage 1, opened up. Function calling, an agent loop written from scratch so you see there is no magic, then the same loop in a framework so you can read the ones employers name. Connecting to an MCP server. Failure handling, safe fallbacks, guardrails, and knowing when a plain workflow beats an agent.</p>
-      <ul>
-        <li>Raw SDK first, framework second, deliberately</li>
-        <li>One framework taught as a vehicle, not as the curriculum</li>
-      </ul>
-      <div class="build"><div class="nt">You build</div><p>Your Stage 5 system extended into an agent that retrieves, calls two real tools (a calendar, a ticketing API, a database), and refuses or falls back safely when it should.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">7</div>
-        <h3><span class="tag">The differentiator</span>Evaluation</h3>
-        <span class="chip flag">Taught in full here, referenced from Stage 1</span></div>
-      <p>The skill that separates a demo from a product, and the one almost every course skips. Building a test set, using a model as a judge, human review, regression tests for prompts, measuring hallucination and retrieval quality, tracing, and the discipline of running the evaluation before every change instead of eyeballing outputs.</p>
-      <p>Evaluation is asked of almost half of senior AI engineers and almost no juniors. That gap is the point: a beginner who arrives with an evaluation suite is showing the evidence seniors are hired for.</p>
-      <div class="build"><div class="nt">You build</div><p>An evaluation suite for your Stage 6 agent, with a written report of what it gets wrong and one change that measurably improved it.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">8</div>
-        <h3><span class="tag">Production</span>Shipping it</h3>
-        <span class="chip">What makes it production-grade</span></div>
-      <p>"Production" is the word employers use most. This stage earns it: containerise the agent with Docker, deploy it to one cloud, set up CI/CD that runs the tests and the evaluations before anything goes live, add logging and monitoring, put authentication on the API, handle personal data properly, and track cost per request.</p>
-      <ul>
-        <li>One cloud, deployed properly, beats three clouds' certificates</li>
-        <li>Security taught as engineering, not as a compliance slide</li>
-      </ul>
-      <div class="build"><div class="nt">You build</div><p>Your agent live at a public URL, with a pipeline that blocks deployment if the evaluations regress, and a dashboard showing usage and cost.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">9</div>
-        <h3><span class="tag">Capstone</span>A business problem, solved end to end</h3>
-        <span class="chip">Presented as a business case, not a notebook</span></div>
-      <p>You choose a real organisational problem, scope it, build a retrieval-augmented, tool-using application with an evaluation suite, deploy it, and present it to a non-technical audience in terms of what it saves or enables. This is the credential.</p>
-      <div class="build"><div class="nt">You build</div><p>A public repository, a live deployment, an evaluation report, and a ten-minute recorded presentation to a business audience. This is your portfolio.</p></div>
-    </div>
-
-    <div class="module">
-      <div class="head"><div class="num">10</div>
-        <h3><span class="tag">Getting hired</span>The realistic first role</h3>
-        <span class="chip">Honest about titles, salaries and search</span></div>
-      <p>The junior market is small, often degree-gated, and full of paid courses dressed up as job adverts. This stage is candid about that and gives you the counter-moves.</p>
-      <ul>
-        <li>Which titles to search: Junior AI Developer, AI Automation Engineer, graduate technology and AI roles, developer or automation roles with an AI component</li>
-        <li>How to spot a paid course disguised as a vacancy</li>
-        <li>A CV that uses employer vocabulary: production, agentic workflows, RAG, evaluation, guardrails, measurable value</li>
-        <li>The Microsoft-stack route into regional and public-sector employers</li>
-        <li>Talking about AI-assisted development as a strength in interview</li>
-        <li>Progression: what turns a first role into a mid-level one in two to three years</li>
-      </ul>
-    </div>
-
-  </div>
-</div></section>
-
-<section class="tint"><div class="wrap">
-  <h2>Deliberately left out</h2>
-  <p class="lede">What other AI courses include, and the job data says a first-role programme should not. If you are looking for these, this is not the right programme, and we would rather tell you now.</p>
-  <div class="tablewrap"><table>
-    <tr><th>Not taught</th><th>Why</th></tr>
-    <tr><td>Training models from scratch</td><td>None of the adverts we analysed were pure machine learning. You learn to understand models, not to build them.</td></tr>
-    <tr><td>Deep learning maths, backpropagation, gradients</td><td>Not asked for. The intuition for what training does is in Stage 0; the maths is not.</td></tr>
-    <tr><td>PyTorch and TensorFlow</td><td>Under a tenth of adverts. You will know what they are; you will not spend weeks on them.</td></tr>
-    <tr><td>Computer vision, classical NLP, transformer internals</td><td>The syllabus of a 2019 machine learning course.</td></tr>
-    <tr><td>A vendor certificate as the credential</td><td>No advert asked for one. Your deployed capstone is the credential.</td></tr>
-  </table></div>
-</div></section>
-
-<section><div class="wrap narrow">
-  <h2>After the core: the advanced tier</h2>
-  <p>Some topics only seniors are asked to do: fine-tuning small models, MLOps pipelines, Kubernetes and Terraform, multi-agent systems, building MCP servers, and full-stack work in TypeScript. They are not in the core because a single, well-evaluated, deployed agent is what gets a beginner hired. They will be offered as a separate follow-on programme for people already in a first role.</p>
-</div></section>
-
-<section id="waitlist"><div class="wrap">
-  <div class="waitlist">
-    <div>
-      <h2>Be first to know when enrolment opens</h2>
-      <p>The programme is being built and tested now. Join the waitlist and you’ll get the launch date, early-cohort pricing, and a short email now and then on what the UK AI job market actually looks like. No spam, and you can leave with one click.</p>
-    </div>
-    <form class="form" id="waitlist-form" novalidate>
-      <div class="hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
-      <div><label for="wl-name">First name</label><input id="wl-name" name="first_name" type="text" placeholder="Priya" autocomplete="given-name" required></div>
-      <div><label for="wl-email">Email</label><input id="wl-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
-      <div><label for="wl-bg">Where are you starting from?</label>
-        <select id="wl-bg" name="background">
-          <option value="">Choose one (optional)</option>
-          <option>No technical background</option>
-          <option>Some Excel or data experience</option>
-          <option>Data analyst or similar</option>
-          <option>Software developer</option>
-          <option>Student or recent graduate</option>
-          <option>Other</option>
-        </select>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">0</div><h3><span class="tag">Foundations &middot; no code</span>What AI actually is, and what an AI engineer actually does</h3></div>
+        <span class="chip">Theory, told as a story</span>
+        <p>Everything a complete beginner needs before any tool appears. Told in six lectures as the story of how we got here, not as a textbook.</p>
+        <ul>
+          <li>AI, machine learning, deep learning and large language models, and how they relate</li>
+          <li>Training a model versus using one, and why this programme is about the second</li>
+          <li>Tokens, context windows, embeddings, temperature, and why models make things up</li>
+          <li>The model landscape (Claude, GPT, Gemini, open-weight) and how engineers choose</li>
+          <li>Where AI sits inside ordinary software: the user, the app, the database, the model</li>
+          <li>The job itself: what UK adverts say the role is, and what it is not</li>
+        </ul>
       </div>
-      <button class="btn" type="submit">Join the waitlist</button>
-      <div class="msg" role="status" aria-live="polite"></div>
-      <div class="fine">We store your name and email to contact you about this programme only.</div>
-    </form>
+      <div class="build"><div class="nt">You build</div><p>A written explainer, in your own words, of how an LLM answers a question. You will use it again in interview preparation.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">1</div><h3><span class="tag">The no-code full workflow</span>Copilot Studio: the whole job before any code</h3></div>
+        <span class="chip flag">The stage that makes everything else make sense</span>
+        <p>Copilot Studio lets you do the whole job before code makes it harder. You build a complete assistant and, as you do, you are told plainly which later stage each button corresponds to.</p>
+        <ul>
+          <li>Build an assistant, write its instructions, give it a persona and constraints</li>
+          <li>Add knowledge sources: documents, SharePoint, a website. This is retrieval, and you are told so</li>
+          <li>Add actions that call a workflow or an API. This is tool use, and you are told so</li>
+          <li>Test it, break it, watch it hallucinate, fix it. This is evaluation, and you are told so</li>
+          <li>Publish it to Teams. This is deployment</li>
+        </ul>
+        <p class="aside">This stack appears in a fifth of UK adverts and dominates junior and regional roles. Some students get their first job on it alone.</p>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>An internal HR or IT policy assistant, published to Teams, answering from real documents and logging a ticket through an action.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">2</div><h3><span class="tag">Code foundations</span>Python for AI engineering</h3></div>
+        <span class="chip">Application Python, not analysis Python</span>
+        <p>The Python of someone who writes services: functions, classes, data structures, JSON, error handling, reading a traceback, calling an HTTP API, virtual environments, project structure, Git, and a first test. Written by you, without an AI assistant finishing your lines; assistants are introduced deliberately in Stage 3.</p>
+        <ul>
+          <li>Git and GitHub from day one; every later build lives in a repository</li>
+          <li>Enough to read TypeScript, since a third of adverts want it as a second language</li>
+        </ul>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>A command-line tool that pulls from a public API, handles errors, has tests, and is on GitHub with a README.</p></div>
+    </article>
+  </div>
+
+  <div class="phase-band" id="phase-2"><span class="ghost" aria-hidden="true">02</span><span class="phase">Phase 2</span><span class="rule"></span><span class="title">Building: one application, extended stage by stage<small>Stages 3–8</small></span></div>
+  <div class="journey">
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">3</div><h3><span class="tag">First contact with the model</span>Working with LLM APIs</h3></div>
+        <span class="chip">The Stage 1 assistant, rebuilt in code</span>
+        <p>Call a model from Python. System prompts, messages, structured outputs, streaming, cost and latency, and switching between two providers behind one interface. Then wrap it in a FastAPI service so it is an application, not a notebook.</p>
+        <ul>
+          <li>Provider SDKs directly, no framework yet</li>
+          <li>AI-assisted development introduced here as a working practice, with one rule: you must be able to explain every line</li>
+        </ul>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>A chat service with conversation memory, exposed as an API, that can run against either of two model providers.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">4</div><h3><span class="tag">The craft</span>Context engineering</h3></div>
+        <span class="chip">Prompt engineering, folded into something bigger</span>
+        <p>Prompting matters, but no employer hires for prompting alone. This stage teaches it as one part of deciding what the model sees: prompts, examples, output schemas, tool descriptions, conversation history, what gets cut when the context is full, token budgeting, and defending against prompt injection.</p>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>Your Stage 3 service upgraded to produce validated structured outputs and to resist a set of injection attacks you write yourself.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">5</div><h3><span class="tag">Build pattern one</span>Retrieval-augmented generation (RAG)</h3></div>
+        <span class="chip flag">One of the two patterns every portfolio needs</span>
+        <p>The knowledge-sources button from Stage 1, opened up. Chunking strategies, embeddings, a vector store, keyword versus semantic versus hybrid search, reranking, citing sources, and measuring whether retrieval actually found the right thing.</p>
+        <p class="aside">RAG appears in roughly half of UK AI engineer adverts.</p>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>Document Q&amp;A over a private document set, such as a policy library or a product manual, with cited answers and a retrieval-quality score.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">6</div><h3><span class="tag">Build pattern two</span>Agents and tool use</h3></div>
+        <span class="chip flag">The other pattern every portfolio needs</span>
+        <p>The actions button from Stage 1, opened up. Function calling, an agent loop written from scratch so you see there is no magic, then the same loop in a framework so you can read the ones employers name. Connecting to an MCP server. Failure handling, safe fallbacks, guardrails, and knowing when a plain workflow beats an agent.</p>
+        <ul>
+          <li>Raw SDK first, framework second, deliberately</li>
+          <li>One framework taught as a vehicle, not as the curriculum</li>
+        </ul>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>Your Stage 5 system extended into an agent that retrieves, calls two real tools (a calendar, a ticketing API, a database), and refuses or falls back safely when it should.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">7</div><h3><span class="tag">The differentiator</span>Evaluation</h3></div>
+        <span class="chip flag">Taught in full here, referenced from Stage 1</span>
+        <p>The skill that separates a demo from a product, and the one almost every course skips. Building a test set, using a model as a judge, human review, regression tests for prompts, measuring hallucination and retrieval quality, tracing, and the discipline of running the evaluation before every change instead of eyeballing outputs.</p>
+        <p class="aside">Evaluation is asked of almost half of senior AI engineers and almost no juniors. That gap is the point: a beginner who arrives with an evaluation suite is showing the evidence seniors are hired for.</p>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>An evaluation suite for your Stage 6 agent, with a written report of what it gets wrong and one change that measurably improved it.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">8</div><h3><span class="tag">Production</span>Shipping it</h3></div>
+        <span class="chip">What makes it production-grade</span>
+        <p>"Production" is the word employers use most. This stage earns it: containerise the agent with Docker, deploy it to one cloud, set up CI/CD that runs the tests and the evaluations before anything goes live, add logging and monitoring, put authentication on the API, handle personal data properly, and track cost per request.</p>
+        <ul>
+          <li>One cloud, deployed properly, beats three clouds' certificates</li>
+          <li>Security taught as engineering, not as a compliance slide</li>
+        </ul>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>Your agent live at a public URL, with a pipeline that blocks deployment if the evaluations regress, and a dashboard showing usage and cost.</p></div>
+    </article>
+  </div>
+
+  <div class="phase-band" id="phase-3"><span class="ghost" aria-hidden="true">03</span><span class="phase">Phase 3</span><span class="rule"></span><span class="title">Launch: the credential and the first role<small>Stages 9–10</small></span></div>
+  <div class="journey">
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">9</div><h3><span class="tag">Capstone</span>A business problem, solved end to end</h3></div>
+        <span class="chip">Presented as a business case, not a notebook</span>
+        <p>You choose a real organisational problem, scope it, build a retrieval-augmented, tool-using application with an evaluation suite, deploy it, and present it to a non-technical audience in terms of what it saves or enables. This is the credential.</p>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>A public repository, a live deployment, an evaluation report, and a ten-minute recorded presentation to a business audience. This is your portfolio.</p></div>
+    </article>
+    <article class="module">
+      <div class="main">
+        <div class="head"><div class="num">10</div><h3><span class="tag">Getting hired</span>The realistic first role</h3></div>
+        <span class="chip">Honest about titles, salaries and search</span>
+        <p>The junior market is small, often degree-gated, and full of paid courses dressed up as job adverts. This stage is candid about that and gives you the counter-moves.</p>
+        <ul>
+          <li>Which titles to search: Junior AI Developer, AI Automation Engineer, graduate technology and AI roles, developer or automation roles with an AI component</li>
+          <li>How to spot a paid course disguised as a vacancy</li>
+          <li>A CV that uses employer vocabulary: production, agentic workflows, RAG, evaluation, guardrails, measurable value</li>
+          <li>The Microsoft-stack route into regional and public-sector employers</li>
+          <li>Talking about AI-assisted development as a strength in interview</li>
+          <li>Progression: what turns a first role into a mid-level one in two to three years</li>
+        </ul>
+      </div>
+      <div class="build"><div class="nt">You build</div><p>A CV in employer vocabulary, interview practice on your capstone, and a realistic search plan for your first role.</p></div>
+    </article>
   </div>
 </div></section>
-<footer><div class="wrap">
-  <div><b>AI Engineer Career Programme</b>Professional Careers Training &amp; Recruitment, London</div>
-  <div><a href="/programme">The programme</a><a href="/career">The career</a><a href="/faq">FAQ</a><a href="/#waitlist">Waitlist</a></div>
-  <div>&copy; 2026 Professional Careers Training &amp; Recruitment</div>
+
+<div class="dark-block">
+<section id="left-out"><div class="container">
+  <span class="badge"><i><span></span><span></span><span></span></i>Deliberately Left Out</span>
+  <h2>What We Don't Teach, and Why</h2>
+  <p class="lede">What other AI courses include, and the job data says a first-role programme should not. If you are looking for these, this is not the right programme, and we would rather tell you now.</p>
+  <div class="left-out" data-reveal>
+    <div class="glass"><h3>Training models from scratch</h3><p>None of the adverts we analysed were pure machine learning. You learn to understand models, not to build them.</p></div>
+    <div class="glass"><h3>Deep learning maths</h3><p>Backpropagation and gradients aren't asked for. The intuition for what training does is in Stage 0; the maths is not.</p></div>
+    <div class="glass"><h3>PyTorch and TensorFlow</h3><p>Under a tenth of adverts. You will know what they are; you will not spend weeks on them.</p></div>
+    <div class="glass"><h3>Computer vision, classical NLP, transformer internals</h3><p>The syllabus of a 2019 machine learning course.</p></div>
+    <div class="glass"><h3>A vendor certificate as the credential</h3><p>No advert asked for one. Your deployed capstone is the credential.</p></div>
+  </div>
+
+  <div class="finish advanced" data-reveal>
+    <div>
+      <h3>After the core: the advanced tier</h3>
+      <p>Some topics only seniors are asked to do. They are not in the core because a single, well-evaluated, deployed agent is what gets a beginner hired. They will be offered as a separate follow-on programme for people already in a first role.</p>
+    </div>
+    <ul class="topic-pills">
+      <li>Fine-tuning small models</li>
+      <li>MLOps pipelines</li>
+      <li>Kubernetes &amp; Terraform</li>
+      <li>Multi-agent systems</li>
+      <li>Building MCP servers</li>
+      <li>Full-stack TypeScript</li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="cta-final"><div class="container">
+  <h2>Ready to Start Your AI Engineering Career?</h2>
+  <p>Join the waitlist for the launch date, early-cohort pricing and honest updates on the UK AI job market. No spam, leave with one click.</p>
+  <div class="btns"><a class="btn btn-accent" href="/waitlist">Join the waitlist</a><a class="btn btn-ghost" href="/career">Read about the career</a></div>
+</div></section>
+</div>
+<footer><div class="container">
+  <div>&copy; 2026 AI Engineer Career Programme. All rights reserved.</div>
+  <div><a href="/programme">Programme</a><a href="/career">The career</a><a href="/faq">FAQ</a><a href="/waitlist">Waitlist</a></div>
 </div></footer>
+<div class="sticky-cta"><a class="btn btn-accent" href="/waitlist">Join the waitlist &middot; enrolment opening soon</a></div>
 <script src="/app.js"></script>
 </body>
 </html>
