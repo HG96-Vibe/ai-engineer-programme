@@ -30,6 +30,8 @@
   var SUPABASE_KEY='sb_publishable_3ocge4h1E2pbAgvOgu1aVw_RZR7T2jI';
   var form=document.getElementById('waitlist-form');
   if(!form)return;
+  // arriving from the home page hero with an email already typed
+  try{var pre=new URLSearchParams(location.search).get('email');if(pre){form.email.value=pre;form.first_name.focus();}}catch(e){}
   var msg=form.querySelector('.msg'),submit=form.querySelector('button[type="submit"]');
   form.addEventListener('submit',function(e){
     e.preventDefault();
