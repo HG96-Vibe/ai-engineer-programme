@@ -458,3 +458,11 @@ footer a:hover{color:var(--i800)}
   [data-reveal]{opacity:1;transform:none;transition:none}
   .btn{transition:none}
 }
+
+/* home page 3D scene (scene.js adds .has-scene once WebGL is running) */
+canvas.scene{position:fixed;inset:0;width:100vw;height:100vh;z-index:-1;pointer-events:none}
+.has-scene body{background:transparent}
+.has-scene .hero,.has-scene .dark-block,
+.has-scene section.tint,.has-scene section.fade,.has-scene section.fade-down,.has-scene section.sweep{background:transparent}
+.has-scene .facts-wrap{background:transparent}
+.has-scene .hero .orb{display:none}
