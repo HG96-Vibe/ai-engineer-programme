@@ -497,3 +497,27 @@ footer a:hover{color:#fff}
 /* without the canvas (no JavaScript), each chapter shows its word as plain text */
 .story:not(.is-live) .story-ch::before{content:attr(data-word);font-size:clamp(48px,11vw,140px);font-weight:800;line-height:1;color:rgba(255,255,255,.9);margin-bottom:auto;padding-top:14vh}
 @media (max-width:760px){.story-ch{padding-bottom:12vh}.story-ch p{font-size:16.5px}}
+
+/* editorial hero: one big statement and the waitlist as a single email field */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hero-ed{padding:56px 0 120px}
+.hero-ed .container{display:block}
+.hero h1.hero-big{font-size:clamp(44px,9.4vw,124px);line-height:.92;font-weight:800;letter-spacing:-.035em;margin:6px 0 26px;color:#fff}
+.hero-big em{font-style:normal;color:var(--i300)}
+@supports (-webkit-text-stroke:2px #000){.hero-big em{color:transparent;-webkit-text-stroke:2px var(--i300)}}
+.hero-line{font-size:clamp(20px,2.3vw,28px);font-weight:700;color:var(--i200);margin:0 0 14px;letter-spacing:-.01em}
+.hero-line span{color:#fbbf24}
+.hero-ed .sub{max-width:56ch;margin-bottom:26px}
+.hero-form{display:flex;gap:8px;align-items:center;max-width:540px;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:999px;padding:6px 6px 6px 20px}
+.hero-form:focus-within{border-color:var(--i400);box-shadow:0 0 0 3px rgba(129,140,248,.25)}
+.hero-form input{flex:1;min-width:0;background:none;border:none;outline:none;color:var(--ink);font:inherit;font-size:16px;padding:10px 0}
+.hero-form input::placeholder{color:var(--ink-faint)}
+.hero-form .btn{flex:none;font-size:15px;padding:12px 22px}
+.hero-more{display:inline-block;margin-top:16px;color:var(--i200);font-weight:600;font-size:15px;text-decoration:none}
+.hero-more:hover{color:#fff}
+@media (max-width:520px){
+  .hero-form{flex-direction:column;align-items:stretch;border-radius:18px;padding:8px}
+  .hero-form input{padding:10px 12px}
+  .hero-form .btn{width:100%}
+  .hero-big em{-webkit-text-stroke-width:1.5px}
+}
