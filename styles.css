@@ -482,3 +482,18 @@ a:hover{color:#fff}
 footer{background:rgba(22,19,58,.7);border-top-color:var(--line-soft)}
 footer a:hover{color:#fff}
 .side-card .leave .k,.facts .k,.truth .k,.ladder .t,.tool .order,.steps4 .when,.route .route-list small,.module h3 .tag{color:#fbbf24}
+
+/* home page scroll story: the headline word is drawn in dots (story.js) and stays pinned
+   while five chapters scroll past underneath it */
+.story{position:relative;padding:0}
+.story-stage{position:sticky;top:0;height:100vh;height:100svh;margin-bottom:-100vh;margin-bottom:-100svh;pointer-events:none}
+.story-canvas{display:block;width:100%;height:100%}
+.story-chapters{position:relative}
+.story-ch{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:0 0 14vh;max-width:640px}
+.story-ch .k{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--i300)}
+.story-ch h2{color:#fff;text-wrap:balance}
+.story-ch p{color:var(--ink-soft);font-size:18px;margin:0;max-width:46ch}
+.story-ch .btn{align-self:flex-start;margin-top:12px}
+/* without the canvas (no JavaScript), each chapter shows its word as plain text */
+.story:not(.is-live) .story-ch::before{content:attr(data-word);font-size:clamp(48px,11vw,140px);font-weight:800;line-height:1;color:rgba(255,255,255,.9);margin-bottom:auto;padding-top:14vh}
+@media (max-width:760px){.story-ch{padding-bottom:12vh}.story-ch p{font-size:16.5px}}
